@@ -1,0 +1,515 @@
+:root {
+  --upper-text-color: #f46752;
+  --header-color: #1d253c;
+  --section-text-color: #5a6482;
+  --button-text-color: #ffffff;
+}
+
+/* ================GENERAL================ */
+/* body {
+  font-family: "Roboto", sans-serif;
+  color: var(--headings-herobackground-color);
+  background-color: var(--background-color);
+} */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+h2 {
+  font-family: "Work Sans", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+}
+
+ul,
+ol {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+button {
+  display: block;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  padding: 0;
+}
+
+.container {
+  width: 100%;
+  max-width: 1100px;
+  padding: 0 15px;
+  margin: 0 auto;
+  align-items: center;
+}
+
+section,
+header,
+footer {
+  background-color: #fff;
+}
+
+h2 {
+  font-family: "Work Sans", sans-serif;
+  font-weight: 600;
+  font-size: 44px;
+  line-height: 1.18;
+  text-align: center;
+  color: var(--header-color);
+}
+
+.section-text {
+  font-family: "Work Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 1.58;
+  color: var(--section-text-color);
+}
+
+.page-header > .container {
+  max-width: 1320px;
+}
+
+.section-hero > .container,
+.section-started > .container {
+  max-width: 1440px;
+}
+
+footer > .container {
+  max-width: 1130px;
+}
+
+.upper-text {
+  font-family: "Work Sans", sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1.21;
+  text-transform: uppercase;
+  color: var(--upper-text-color);
+}
+
+.btn-main {
+  position: relative;
+  min-width: 210px;
+  height: 60px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.19;
+  text-indent: -20px;
+  text-transform: uppercase;
+  color: var(--button-text-color);
+  background-color: var(--upper-text-color);
+  border: 1px solid rgba(29, 37, 60, 0.2);
+  border-radius: 4px;
+}
+
+.btn-arrow {
+  position: absolute;
+  top: 22px;
+  right: 22px;
+  fill: var(--button-text-color);
+  height: 10px;
+}
+
+/* ================HEADER================ */
+
+.page-header-container {
+  display: flex;
+}
+
+.page-nav {
+  display: flex;
+  align-items: center;
+}
+
+.menu {
+  display: flex;
+}
+
+.page-nav .list {
+  margin-left: 35px;
+}
+
+.menu-item + .menu-item {
+  margin-left: 35px;
+}
+
+.menu-link {
+  font-family: "Work Sans", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.19;
+  color: var(--header-color);
+}
+
+.nav-interactive {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+
+.nav-interactive .menu-link {
+  padding-top: 43px;
+  padding-bottom: 43px;
+}
+
+.btn-header {
+  display: block;
+  min-width: 161px;
+  height: 44px;
+  font-family: "Work Sans", sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1.21;
+  text-transform: uppercase;
+  margin-left: 31px;
+  color: var(--header-color);
+  background-color: #ffffff;
+  border: 1px solid rgba(29, 37, 60, 0.2);
+  border-radius: 4px;
+}
+/* ================SECTION HERO================ */
+.section-hero {
+  position: relative;
+  height: 775px;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.section-hero .container {
+  margin-left: 106px;
+
+  padding-right: 0;
+  padding-left: 0;
+}
+.section-hero .upper-text {
+  font-family: "Work Sans", sans-serif;
+  font-size: 18px;
+  line-height: 1.5;
+  padding-top: 210px;
+}
+
+h1 {
+  max-width: 463px;
+  font-family: "Work Sans", sans-serif;
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 1.06;
+  text-transform: capitalize;
+  color: var(--header-color);
+  max-width: 463px;
+  margin-bottom: 26px;
+}
+
+.section-hero .section-text {
+  font-family: "Work Sans", sans-serif;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 1.5;
+  margin-bottom: 40px;
+  max-width: 410px;
+}
+
+.hero-pic {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+/* ================SECTION PRICES================ */
+
+.section-prices {
+  padding-top: 85px;
+  padding-bottom: 85px;
+  background-color: #f9f5f2;
+}
+
+.section-prices > .container {
+  display: flex;
+  position: relative;
+}
+
+.section-prices .menu-link {
+  position: absolute;
+  bottom: -40px;
+  color: #5a6482;
+}
+
+.prices-container {
+  margin-left: 144px;
+}
+
+.prices-container > h2 {
+  max-width: 439px;
+  text-align: left;
+  margin-top: 26px;
+  margin-bottom: 19px;
+}
+
+.prices-container > .section-text {
+  max-width: 456px;
+}
+
+.get-link {
+  display: inline-block;
+  margin-top: 32px;
+  font-family: "Work Sans", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.22;
+  color: #126f86;
+}
+
+/* ================SECTION HELP================ */
+
+.section-help {
+  height: 822px;
+  padding-top: 148px;
+  padding-bottom: 163px;
+  text-align: left;
+}
+
+.section-help .container {
+  position: relative;
+}
+
+.help-container {
+  text-align: left;
+}
+
+.section-help h2 {
+  text-align: left;
+  font-weight: 500;
+  margin-top: 27px;
+  margin-bottom: 35px;
+}
+
+.section-help .section-text {
+  max-width: 483px;
+}
+
+.section-help .get-link {
+  margin-top: 15px;
+}
+
+.help-pic {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 20;
+}
+
+/* ================SECTION RELIABILITY================ */
+
+.section-reliability {
+  background-color: #f8f8f8;
+  text-align: center;
+}
+
+.section-reliability .upper-text {
+  padding-top: 90px;
+  margin-bottom: 30px;
+}
+
+.section-reliability h2 {
+  margin-bottom: 37px;
+}
+
+.section-reliability .section-text {
+  margin-bottom: 41px;
+}
+
+.reliability-images {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 35px;
+}
+
+.container-reliability {
+  position: relative;
+}
+
+.umbrella-pic {
+  position: absolute;
+  top: -105px;
+  left: 323px;
+}
+
+.doggo-container {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.doggo {
+  position: absolute;
+  bottom: -30px;
+  right: -140px;
+}
+
+/* ================SECTION APPLY================ */
+.section-apply {
+  background-color: #363839;
+  text-align: center;
+  padding-top: 120px;
+  padding-bottom: 101px;
+}
+
+.section-apply .upper-text {
+  font-weight: 500;
+}
+
+.section-apply h2 {
+  font-weight: 500;
+  color: var(--button-text-color);
+  margin-top: 26px;
+  margin-bottom: 15px;
+}
+
+.section-apply .section-text {
+  color: #acb4bf;
+  margin-bottom: 150px;
+  max-width: 713px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.apply-list {
+  display: flex;
+  justify-content: space-around;
+}
+
+.apply-item {
+  position: relative;
+  width: 240px;
+}
+.section-apply h3 {
+  margin-bottom: 8px;
+  font-family: "Work Sans", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 1;
+  text-align: center;
+  color: var(--button-text-color);
+}
+
+.item-text {
+  font-family: "Work Sans", sans-serif;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  color: #acb4bf;
+}
+
+.circle {
+  position: absolute;
+  top: -70px;
+  left: 110px;
+  z-index: 10;
+}
+
+.one {
+  position: absolute;
+  top: -85px;
+  left: 95px;
+  z-index: 20;
+}
+
+.two {
+  position: absolute;
+  top: -85px;
+  left: 105px;
+  z-index: 20;
+}
+
+.three {
+  position: absolute;
+  top: -85px;
+  left: 95px;
+  z-index: 20;
+}
+
+.container-dashed {
+  position: relative;
+}
+
+.dashed {
+  position: absolute;
+  top: -75px;
+  left: 170px;
+  z-index: 5;
+}
+
+.confetti {
+  position: absolute;
+  top: -275px;
+  right: -270px;
+}
+
+.section-learning {
+  background-color: #f9f5f2;
+}
+
+.section-apply .btn-main {
+  margin-top: 35px;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* ================SECTION STARTED================ */
+.section-started {
+  position: relative;
+  padding-top: 106px;
+  padding-bottom: 85px;
+  text-align: center;
+  background-color: #e5f3fe;
+}
+
+.section-started .section-text {
+  color: #676562;
+}
+
+.man-umbrella-pic {
+  position: absolute;
+  bottom: 0px;
+}
+
+.boy-pic {
+  position: absolute;
+  bottom: 0px;
+  right: 252px;
+}
+
+.section-started .section-text {
+  margin-top: 8px;
+  margin-bottom: 39px;
+}
+
+.section-started .btn-main {
+  margin: 0 auto;
+}
+
+.footer-second {
+  background-color: #f8f8f8;
+}
